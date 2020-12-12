@@ -9,7 +9,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'master', url: 'git@github.com:Cloud-Devops-Automation/CI-CD-Docker.git'
+                git branch: 'main', url: 'git@github.com:Cloud-Devops-Automation/CI-CD-Docker.git'
              
           }
         }
