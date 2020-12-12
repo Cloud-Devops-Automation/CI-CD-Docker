@@ -13,7 +13,7 @@ pipeline {
              
           }
         }
-	 stage('Execute Maven') {
+	 stage('Execute Maven 3.6.3') {
            steps {
              
                 sh 'mvn package'             
